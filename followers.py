@@ -40,7 +40,7 @@ parser = argparse.ArgumentParser(description="Busca trolls entre tus seguidores.
 parser.add_argument("-u", dest="usuario", required=True, help="Usuario, sin el arroba.")
 args = parser.parse_args()
 
-trolls = map(str.lower,['pajaritatw', 'misodios', 'dariogallo', 'mis2centavos', 'orwellgeorge', 'mercedesninci1', 'ipradio', 'chorlich', 'drapignata', 'atlanticsurff', 'cfk_', 'gus_noriega', 'pablo_antik', 'lanata_ppt']) # Lista de cuentas a detectar.
+trolls = map(str.lower,['pajaritatw', 'misodios', 'dariogallo', 'mis2centavos', 'orwellgeorge', 'mercedesninci1', 'ipradio', 'chorlich', 'drapignata', 'atlanticsurff', 'cfk_', 'gus_noriega', 'pablo_antik', 'lanata_ppt', 'esacrosa']) # Lista de cuentas a detectar.
 
 print args.usuario
 if args.usuario == '':
